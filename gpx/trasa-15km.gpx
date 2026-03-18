@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Pochod za povidlovým koláčem" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Trasa 15 km</name>
+    <desc>Benešov – Pomněnice – Konopiště – Benešov (pěší)</desc>
+  </metadata>
+  <trk>
+    <name>Trasa 15 km</name>
+    <trkseg>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+      <trkpt lat="49.7790" lon="14.6800"><ele>365</ele></trkpt>
+      <trkpt lat="49.7750" lon="14.6720"><ele>380</ele></trkpt>
+      <trkpt lat="49.7700" lon="14.6630"><ele>395</ele></trkpt>
+      <trkpt lat="49.7650" lon="14.6550"><ele>410</ele></trkpt>
+      <trkpt lat="49.7580" lon="14.6470"><ele>420</ele></trkpt>
+      <trkpt lat="49.7500" lon="14.6400"><ele>430</ele></trkpt>
+      <trkpt lat="49.7540" lon="14.6480"><ele>425</ele></trkpt>
+      <trkpt lat="49.7600" lon="14.6540"><ele>415</ele></trkpt>
+      <trkpt lat="49.7655" lon="14.6578"><ele>410</ele></trkpt>
+      <trkpt lat="49.7710" lon="14.6650"><ele>390</ele></trkpt>
+      <trkpt lat="49.7760" lon="14.6750"><ele>372</ele></trkpt>
+      <trkpt lat="49.7800" lon="14.6830"><ele>360</ele></trkpt>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

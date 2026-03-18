@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Pochod za povidlovým koláčem" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Cyklotrasa 43 km</name>
+    <desc>Benešov – Pozov – Jemniště – Okrouhlice – Čerčany – Bedrč – Benešov (cyklo)</desc>
+  </metadata>
+  <trk>
+    <name>Cyklotrasa 43 km</name>
+    <trkseg>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+      <trkpt lat="49.7780" lon="14.6950"><ele>362</ele></trkpt>
+      <trkpt lat="49.7720" lon="14.7080"><ele>375</ele></trkpt>
+      <trkpt lat="49.7650" lon="14.7200"><ele>388</ele></trkpt>
+      <trkpt lat="49.7700" lon="14.7350"><ele>380</ele></trkpt>
+      <trkpt lat="49.7800" lon="14.7300"><ele>370</ele></trkpt>
+      <trkpt lat="49.7900" lon="14.7200"><ele>358</ele></trkpt>
+      <trkpt lat="49.8000" lon="14.7150"><ele>345</ele></trkpt>
+      <trkpt lat="49.8150" lon="14.7100"><ele>335</ele></trkpt>
+      <trkpt lat="49.8300" lon="14.7080"><ele>325</ele></trkpt>
+      <trkpt lat="49.8450" lon="14.7070"><ele>318</ele></trkpt>
+      <trkpt lat="49.8580" lon="14.7060"><ele>310</ele></trkpt>
+      <trkpt lat="49.8500" lon="14.6950"><ele>320</ele></trkpt>
+      <trkpt lat="49.8380" lon="14.6850"><ele>332</ele></trkpt>
+      <trkpt lat="49.8250" lon="14.6800"><ele>340</ele></trkpt>
+      <trkpt lat="49.8100" lon="14.6780"><ele>348</ele></trkpt>
+      <trkpt lat="49.7950" lon="14.6810"><ele>352</ele></trkpt>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

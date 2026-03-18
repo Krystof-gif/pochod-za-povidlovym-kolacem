@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Pochod za povidlovým koláčem" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Trasa 18 km</name>
+    <desc>Benešov – Čtyřkoly – Mezihoří – Žíňany – Benešov (pěší)</desc>
+  </metadata>
+  <trk>
+    <name>Trasa 18 km</name>
+    <trkseg>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+      <trkpt lat="49.7860" lon="14.6900"><ele>348</ele></trkpt>
+      <trkpt lat="49.7920" lon="14.6950"><ele>340</ele></trkpt>
+      <trkpt lat="49.7980" lon="14.7010"><ele>335</ele></trkpt>
+      <trkpt lat="49.8050" lon="14.7060"><ele>330</ele></trkpt>
+      <trkpt lat="49.8100" lon="14.7100"><ele>325</ele></trkpt>
+      <trkpt lat="49.8060" lon="14.7020"><ele>345</ele></trkpt>
+      <trkpt lat="49.8000" lon="14.6940"><ele>360</ele></trkpt>
+      <trkpt lat="49.7950" lon="14.6870"><ele>370</ele></trkpt>
+      <trkpt lat="49.7900" lon="14.6810"><ele>375</ele></trkpt>
+      <trkpt lat="49.7870" lon="14.6780"><ele>368</ele></trkpt>
+      <trkpt lat="49.7850" lon="14.6830"><ele>358</ele></trkpt>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Pochod za povidlovým koláčem" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Trasa 27 km</name>
+    <desc>Benešov – Lišno – Žebrák – Bystřice – Semovice – Konopiště – Benešov (pěší)</desc>
+  </metadata>
+  <trk>
+    <name>Trasa 27 km</name>
+    <trkseg>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+      <trkpt lat="49.7780" lon="14.6800"><ele>365</ele></trkpt>
+      <trkpt lat="49.7720" lon="14.6720"><ele>380</ele></trkpt>
+      <trkpt lat="49.7650" lon="14.6650"><ele>395</ele></trkpt>
+      <trkpt lat="49.7570" lon="14.6580"><ele>405</ele></trkpt>
+      <trkpt lat="49.7480" lon="14.6520"><ele>420</ele></trkpt>
+      <trkpt lat="49.7380" lon="14.6560"><ele>435</ele></trkpt>
+      <trkpt lat="49.7280" lon="14.6580"><ele>440</ele></trkpt>
+      <trkpt lat="49.7200" lon="14.6600"><ele>445</ele></trkpt>
+      <trkpt lat="49.7300" lon="14.6550"><ele>435</ele></trkpt>
+      <trkpt lat="49.7400" lon="14.6510"><ele>425</ele></trkpt>
+      <trkpt lat="49.7500" lon="14.6480"><ele>418</ele></trkpt>
+      <trkpt lat="49.7580" lon="14.6530"><ele>412</ele></trkpt>
+      <trkpt lat="49.7655" lon="14.6578"><ele>410</ele></trkpt>
+      <trkpt lat="49.7720" lon="14.6680"><ele>388</ele></trkpt>
+      <trkpt lat="49.7780" lon="14.6790"><ele>368</ele></trkpt>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

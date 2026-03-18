@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Pochod za povidlovým koláčem" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Trasa 5 km</name>
+    <desc>Benešov – Konopiště – Benešov (pěší)</desc>
+  </metadata>
+  <trk>
+    <name>Trasa 5 km</name>
+    <trkseg>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+      <trkpt lat="49.7800" lon="14.6830"><ele>360</ele></trkpt>
+      <trkpt lat="49.7775" lon="14.6780"><ele>370</ele></trkpt>
+      <trkpt lat="49.7740" lon="14.6720"><ele>385</ele></trkpt>
+      <trkpt lat="49.7700" lon="14.6660"><ele>395</ele></trkpt>
+      <trkpt lat="49.7655" lon="14.6578"><ele>410</ele></trkpt>
+      <trkpt lat="49.7690" lon="14.6640"><ele>390</ele></trkpt>
+      <trkpt lat="49.7730" lon="14.6710"><ele>375</ele></trkpt>
+      <trkpt lat="49.7770" lon="14.6790"><ele>365</ele></trkpt>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Pochod za povidlovým koláčem" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Cyklotrasa 80 km</name>
+    <desc>Benešov – Postupice – Vlašim – Český Šternberk – Divišov – Chotýšany – Struhařov – Benešov (cyklo)</desc>
+  </metadata>
+  <trk>
+    <name>Cyklotrasa 80 km</name>
+    <trkseg>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+      <trkpt lat="49.7750" lon="14.6960"><ele>362</ele></trkpt>
+      <trkpt lat="49.7650" lon="14.7100"><ele>375</ele></trkpt>
+      <trkpt lat="49.7500" lon="14.7300"><ele>392</ele></trkpt>
+      <trkpt lat="49.7350" lon="14.7500"><ele>408</ele></trkpt>
+      <trkpt lat="49.7200" lon="14.7680"><ele>425</ele></trkpt>
+      <trkpt lat="49.7100" lon="14.7700"><ele>435</ele></trkpt>
+      <trkpt lat="49.7050" lon="14.7900"><ele>440</ele></trkpt>
+      <trkpt lat="49.7000" lon="14.8200"><ele>445</ele></trkpt>
+      <trkpt lat="49.7000" lon="14.8500"><ele>440</ele></trkpt>
+      <trkpt lat="49.7070" lon="14.8990"><ele>430</ele></trkpt>
+      <trkpt lat="49.7200" lon="14.9100"><ele>420</ele></trkpt>
+      <trkpt lat="49.7400" lon="14.9200"><ele>405</ele></trkpt>
+      <trkpt lat="49.7600" lon="14.9250"><ele>390</ele></trkpt>
+      <trkpt lat="49.7800" lon="14.9270"><ele>380</ele></trkpt>
+      <trkpt lat="49.8070" lon="14.9270"><ele>365</ele></trkpt>
+      <trkpt lat="49.8100" lon="14.9000"><ele>370</ele></trkpt>
+      <trkpt lat="49.8050" lon="14.8700"><ele>375</ele></trkpt>
+      <trkpt lat="49.8000" lon="14.8400"><ele>368</ele></trkpt>
+      <trkpt lat="49.7950" lon="14.8100"><ele>362</ele></trkpt>
+      <trkpt lat="49.7900" lon="14.7850"><ele>358</ele></trkpt>
+      <trkpt lat="49.7880" lon="14.7600"><ele>355</ele></trkpt>
+      <trkpt lat="49.7860" lon="14.7350"><ele>352</ele></trkpt>
+      <trkpt lat="49.7850" lon="14.7100"><ele>350</ele></trkpt>
+      <trkpt lat="49.7830" lon="14.6950"><ele>353</ele></trkpt>
+      <trkpt lat="49.7818" lon="14.6868"><ele>355</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
