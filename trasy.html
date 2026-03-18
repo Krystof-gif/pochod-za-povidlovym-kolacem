@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trasy pochodu | 37. Pochod za povidlovým koláčem</title>
+  <meta name="description" content="Přehled všech pěších a cyklistických tras 47. ročníku Pochodu za povidlovým koláčem. 8 pěších tras a 3 cyklotrasy.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥧</text></svg>">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="logo.svg" alt="Logo Pochod za povidlovým koláčem" width="40" height="40">
+        <div class="nav__logo-text">
+          Pochod za koláčem
+          <span>Benešov u Prahy</span>
+        </div>
+      </a>
+      <div class="nav__links" id="navLinks">
+        <a href="index.html">Úvod</a>
+        <a href="trasy.html" class="active">Trasy</a>
+        <a href="historie.html">Historie</a>
+        <a href="info.html">Důležité info</a>
+        <a href="registrace.html">Registrace</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Otevřít menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <h1>Trasy pochodu</h1>
+    <p>8 pěších tras a 3 cyklotrasy pro všechny úrovně zdatnosti</p>
+  </div>
+
+  <!-- START TIMES INFO -->
+  <section class="section">
+    <div class="container">
+      <div class="info-cards">
+        <div class="info-card">
+          <div class="info-card__icon">🌙</div>
+          <h3>100km trasa</h3>
+          <p>Start: <strong>pátek 19:00–23:00</strong></p>
+        </div>
+        <div class="info-card">
+          <div class="info-card__icon">☀️</div>
+          <h3>Ostatní trasy</h3>
+          <p>Start: <strong>sobota 6:00–12:00</strong></p>
+        </div>
+        <div class="info-card">
+          <div class="info-card__icon">🚉</div>
+          <h3>Zastávka Čtyřkoly</h3>
+          <p>Start: <strong>sobota 7:00–10:00</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIKING TRAILS -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="trails-section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="M13 4v16"/><path d="M17 4v16"/><path d="M19 4H9.5a4.5 4.5 0 000 9H17"/></svg>
+        Pěší trasy
+      </div>
+      <div class="trails-grid">
+
+        <!-- 5km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge">
+              <span class="trail-card__badge-num">5</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Konopiště–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--easy">Snadná</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Krátká okružní trasa z Benešova k zámku Konopiště a zpět. Ideální pro rodiny s dětmi a začátečníky.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-5km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge">
+              <span class="trail-card__badge-num">9</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–okolí zámku Konopiště–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--easy">Snadná</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Procházka okolím zámku Konopiště s průchodem přes krásné lesní partie a kolem rybníků.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-9km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 15km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge">
+              <span class="trail-card__badge-num">15</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Pomněnice–Konopiště–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--easy-medium">Snadná až střední</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Trasa z Benešova přes Pomněnice ke Konopišti a zpět. Vhodná pro mírně pokročilé turisty.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-15km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 18km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge">
+              <span class="trail-card__badge-num">18</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Čtyřkoly–Mezihoří–Žíňany–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--medium">Střední</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Středně dlouhá trasa vedoucí přes obce Čtyřkoly, Mezihoří a Žíňany. Možnost startu ze zastávky Čtyřkoly.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00, zastávka Čtyřkoly 7:00–10:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-18km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 27km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge">
+              <span class="trail-card__badge-num">27</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Lišno–Žebrák–Bystřice–Semovice–Konopiště–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--medium">Střední</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Trasa z Benešova přes Lišno, Žebrák, Bystřici a Semovice ke Konopišti. Pestrá krajina středního Posázaví.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-27km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 36km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge">
+              <span class="trail-card__badge-num">36</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Postupice–Lišno–Semovice–Konopiště–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--medium-hard">Střední až náročná</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Delší trasa z Benešova přes Postupice, Lišno a Semovice ke Konopišti. Vyžaduje dobrou fyzickou kondici.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-36km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 50km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge">
+              <span class="trail-card__badge-num">50</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Postupice–Bedřichovice–Bystřice–Konopiště–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--hard">Náročná</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Dlouhá trasa z Benešova přes Postupice, Bedřichovice a Bystřici ke Konopišti. Pro zkušené turisty s dobrou kondicí.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-50km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 100km -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge trail-card__badge--extreme">
+              <span class="trail-card__badge-num">100</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Noční stovka</div>
+              <div class="trail-card__difficulty trail-card__difficulty--extreme">Velmi náročná</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Benešov–Postupice–Louňovice pod Blaníkem–Vlašim–Benešov a dále po trase 50km. Noční start v pátek. Pouze pro fyzicky zdatné a zkušené turisty.</p>
+            <p class="trail-card__start">Start: pátek 19:00–23:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/trasa-100km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CYCLING TRAILS -->
+  <section class="section">
+    <div class="container">
+      <div class="trails-section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6a1 1 0 100-2 1 1 0 000 2z" fill="currentColor"/><path d="M12 17.5V14l-3-3 4-3 2 3h2"/></svg>
+        Cyklotrasy
+      </div>
+      <div class="trails-grid">
+
+        <!-- 20km cyklo -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge trail-card__badge--cyklo">
+              <span class="trail-card__badge-num">20</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Skalice–Okrouhlice–Petroupim–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--easy">Snadná</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Krátká cyklotrasa vedoucí přes Skalici, Okrouhlici a Petroupim. Vhodná pro rekreační cyklisty a rodiny.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/cyklo-20km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 43km cyklo -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge trail-card__badge--cyklo">
+              <span class="trail-card__badge-num">43</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Pozov–Jemniště–Okrouhlice–Čerčany–Bedrč–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--medium">Střední</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Středně dlouhá cyklotrasa přes Pozov, zámek Jemniště, Okrouhlici, Čerčany a Bedrč. Pestrá krajina s několika převýšeními.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/cyklo-43km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 80km cyklo -->
+        <div class="trail-card">
+          <div class="trail-card__header">
+            <div class="trail-card__badge trail-card__badge--cyklo">
+              <span class="trail-card__badge-num">80</span>
+              <span class="trail-card__badge-unit">km</span>
+            </div>
+            <div>
+              <div class="trail-card__title">Benešov–Postupice–Vlašim–Český Šternberk–Divišov–Chotýšany–Struhařov–Benešov</div>
+              <div class="trail-card__difficulty trail-card__difficulty--hard">Náročná</div>
+            </div>
+          </div>
+          <div class="trail-card__body">
+            <p class="trail-card__route">Dlouhá cyklotrasa vedoucí přes Postupice, Vlašim, hrad Český Šternberk, Divišov, Chotýšany a Struhařov. Výrazné převýšení.</p>
+            <p class="trail-card__start">Start: sobota 6:00–12:00</p>
+            <div class="trail-card__actions">
+              <a href="gpx/cyklo-80km.gpx" class="btn btn--outline btn--sm">Stáhnout GPX</a>
+              <a href="registrace.html" class="btn btn--primary btn--sm">Registrovat</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center;margin-top:3rem">
+        <a href="registrace.html" class="btn btn--primary">Zaregistrovat se na pochod</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="partners">
+    <div class="container">
+      <p class="partners__title">Partneři akce</p>
+      <div class="partners__grid">
+        <span class="partners__item">České dráhy</span>
+        <span class="partners__item">Lesy ČR</span>
+        <span class="partners__item">Ferdinand Konopiště</span>
+        <span class="partners__item">Tiskárna Polygos</span>
+        <span class="partners__item">chvojen.cz</span>
+        <span class="partners__item">Nápoje Benecentrum</span>
+        <span class="partners__item">Znalecké služby Ing. Tomáš Šenrát</span>
+        <span class="partners__item">VZP</span>
+        <span class="partners__item">Dům dětí a mládeže Benešov</span>
+        <span class="partners__item">Zpravodaj města Benešov</span>
+        <span class="partners__item">Jiskra Benešovský deník</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          Pochod za povidlovým koláčem
+          <span>Organizátor: KČT Odbor Benešov ve spolupráci s DDM Benešov</span>
+        </div>
+        <div class="footer__links">
+          <a href="info.html">Důležité info</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="registrace.html">Registrace</a>
+        </div>
+        <div class="footer__copy">&copy; 2026 KČT Odbor Benešov. Všechna práva vyhrazena.</div>
+    <div class="footer__partners">
+          <h3>Organizátoři</h3>
+          <div class="partners-grid">
+            <img src="img/partners/kct.png" alt="Klub českých turistů" class="partner-logo">
+            <img src="img/partners/ddm-benesov.svg" alt="DDM Benešov" class="partner-logo">
+          </div>
+          <h3>Partneři a sponzoři</h3>
+          <div class="partners-grid">
+            <img src="img/partners/ceske-drahy.svg" alt="České dráhy" class="partner-logo">
+            <img src="img/partners/lesy-cr.svg" alt="Lesy ČR" class="partner-logo">
+            <img src="img/partners/vzp.svg" alt="VZP" class="partner-logo">
+            <img src="img/partners/ferdinand.png" alt="Ferdinand Konopiště" class="partner-logo">
+            <img src="img/partners/tiskarna-polygos.svg" alt="Tiskárna Polygos" class="partner-logo">
+            <img src="img/partners/chvojencz.svg" alt="chvojen.cz" class="partner-logo">
+            <img src="img/partners/napoje-benecentrum.svg" alt="Nápoje Benecentrum" class="partner-logo">
+            <img src="img/partners/znalecke-sluzby.svg" alt="Znalecké služby Ing. Tomáš Šenrát" class="partner-logo">
+            <img src="img/partners/zpravodaj-benesov.svg" alt="Zpravodaj města Benešov" class="partner-logo">
+            <img src="img/partners/jiskra.svg" alt="Jiskra Benešovský deník" class="partner-logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      const isOpen = navLinks.classList.contains('open');
+      navToggle.setAttribute('aria-label', isOpen ? 'Zavřít menu' : 'Otevřít menu');
+    });
+    // Close on link click
+    navLinks.querySelectorAll('a').forEach(l => l.addEventListener('click', () => navLinks.classList.remove('open')));
+    // Scroll shadow
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrace | 37. Pochod za povidlovým koláčem</title>
+  <meta name="description" content="Registrace na 47. ročník Pochodu za povidlovým koláčem. 28. března 2026, Benešov u Prahy.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥧</text></svg>">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" fill="#5c2383" stroke="#7e3aaf" stroke-width="2"/>
+          <ellipse cx="20" cy="22" rx="12" ry="6" fill="#d0a8e8"/>
+          <ellipse cx="20" cy="20" rx="12" ry="6" fill="#e8d4f4" stroke="#7e3aaf" stroke-width="1"/>
+          <path d="M14 19c1-2 3-3 6-3s5 1 6 3" stroke="#5c2383" stroke-width="1" fill="none" stroke-linecap="round"/>
+          <circle cx="17" cy="19" r="1" fill="#8e4585"/>
+          <circle cx="23" cy="19" r="1" fill="#8e4585"/>
+          <circle cx="20" cy="20.5" r="0.8" fill="#8e4585"/>
+          <path d="M13 14l-3-6M27 14l3-6" stroke="#7e3aaf" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M10 8l1 2M30 8l-1 2" stroke="#9b5cc4" stroke-width="1" stroke-linecap="round"/>
+          <path d="M8 30l4-4M32 30l-4-4" stroke="#7e3aaf" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M7 32l2-1M33 32l-2-1" stroke="#9b5cc4" stroke-width="1" stroke-linecap="round"/>
+        </svg>
+        <div class="nav__logo-text">
+          Pochod za koláčem
+          <span>Benešov u Prahy</span>
+        </div>
+      </a>
+      <div class="nav__links" id="navLinks">
+        <a href="index.html">Úvod</a>
+        <a href="trasy.html">Trasy</a>
+        <a href="historie.html">Historie</a>
+        <a href="info.html">Důležité info</a>
+        <a href="registrace.html" class="active">Registrace</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Otevřít menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <h1>Registrace</h1>
+    <p>Zaregistrujte se na 47. ročník pochodu</p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="form-wrapper">
+        <form id="registrationForm" action="https://formsubmit.co/Crhak5@seznam.cz" method="POST">
+          <input type="hidden" name="_subject" value="Registrace - Pochod za povidlovým koláčem 2026">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="">
+          <input type="text" name="_honey" style="display:none">
+
+          <div class="form-group">
+            <label for="name">Jméno a příjmení *</label>
+            <input type="text" id="name" name="jmeno" required placeholder="Jan Novák">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required placeholder="jan.novak@email.cz">
+          </div>
+
+          <div class="form-group">
+            <label for="trail">Zvolená trasa *</label>
+            <select id="trail" name="trasa" required>
+              <option value="">-- Vyberte trasu --</option>
+              <optgroup label="Pěší trasy">
+                <option value="pesi-5km">5 km – Benešov–Konopiště–Benešov</option>
+                <option value="pesi-9km">9 km – Okolí zámku Konopiště</option>
+                <option value="pesi-15km">15 km – Pomněnice–Konopiště</option>
+                <option value="pesi-18km">18 km – Čtyřkoly–Mezihoří–Žíňany</option>
+                <option value="pesi-27km">27 km – Lišno–Žebrák–Bystřice–Semovice–Konopiště</option>
+                <option value="pesi-36km">36 km – Postupice–Lišno–Semovice–Konopiště</option>
+                <option value="pesi-50km">50 km – Postupice–Bedřichovice–Bystřice–Konopiště</option>
+                <option value="pesi-100km">100 km noční – Postupice–Louňovice–Vlašim + 50km</option>
+              </optgroup>
+              <optgroup label="Cyklotrasy">
+                <option value="cyklo-20km">20 km – Skalice–Okrouhlice–Petroupim</option>
+                <option value="cyklo-43km">43 km – Pozov–Jemniště–Okrouhlice–Čerčany–Bedrč</option>
+                <option value="cyklo-80km">80 km – Postupice–Vlašim–Český Šternberk–Divišov</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="count">Počet osob *</label>
+            <input type="number" id="count" name="pocet_osob" min="1" max="20" value="1" required>
+          </div>
+
+          <div class="form-group">
+            <label for="note">Poznámka</label>
+            <textarea id="note" name="poznamka" rows="3" placeholder="Např. počet dětí, speciální požadavky..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width:100%">Odeslat registraci</button>
+
+          <div class="form-note">
+            <strong>Potvrzení registrace</strong> obdržíte na zadaný e-mail. Registrace není povinná, ale urychlí vaši prezentaci na startu. Startovné se platí v hotovosti na místě.
+          </div>
+        </form>
+
+        <!-- Fallback mailto -->
+        <div style="text-align:center;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--gray-200)">
+          <p style="font-size:0.9rem;color:var(--gray-500);margin-bottom:0.75rem">Nebo nám napište přímo na e-mail:</p>
+          <a href="mailto:Crhak5@seznam.cz?subject=Registrace%20-%20Pochod%20za%20povidlov%C3%BDm%20kol%C3%A1%C4%8Dem%202026" class="btn btn--outline btn--sm">Crhak5@seznam.cz</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="partners">
+    <div class="container">
+      <p class="partners__title">Partneři akce</p>
+      <div class="partners__grid">
+        <span class="partners__item">České dráhy</span>
+        <span class="partners__item">Lesy ČR</span>
+        <span class="partners__item">Ferdinand Konopiště</span>
+        <span class="partners__item">Tiskárna Polygos</span>
+        <span class="partners__item">chvojen.cz</span>
+        <span class="partners__item">Nápoje Benecentrum</span>
+        <span class="partners__item">Znalecké služby Ing. Tomáš Šenrát</span>
+        <span class="partners__item">VZP</span>
+        <span class="partners__item">Dům dětí a mládeže Benešov</span>
+        <span class="partners__item">Zpravodaj města Benešov</span>
+        <span class="partners__item">Jiskra Benešovský deník</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          Pochod za povidlovým koláčem
+          <span>&bull; KČT Odbor Benešov &amp; DDM Benešov</span>
+        </div>
+        <div class="footer__links">
+          <a href="info.html">Důležité info</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="registrace.html">Registrace</a>
+        </div>
+        <div class="footer__copy">&copy; 2026 KČT Odbor Benešov. Všechna práva vyhrazena.</div>
+    <div class="footer__partners">
+          <h3>Organizátoři</h3>
+          <div class="partners-grid">
+            <img src="img/partners/kct.png" alt="Klub českých turistů" class="partner-logo">
+            <img src="img/partners/ddm-benesov.svg" alt="DDM Benešov" class="partner-logo">
+          </div>
+          <h3>Partneři a sponzoři</h3>
+          <div class="partners-grid">
+            <img src="img/partners/ceske-drahy.svg" alt="České dráhy" class="partner-logo">
+            <img src="img/partners/lesy-cr.svg" alt="Lesy ČR" class="partner-logo">
+            <img src="img/partners/vzp.svg" alt="VZP" class="partner-logo">
+            <img src="img/partners/ferdinand.png" alt="Ferdinand Konopiště" class="partner-logo">
+            <img src="img/partners/tiskarna-polygos.svg" alt="Tiskárna Polygos" class="partner-logo">
+            <img src="img/partners/chvojencz.svg" alt="chvojen.cz" class="partner-logo">
+            <img src="img/partners/napoje-benecentrum.svg" alt="Nápoje Benecentrum" class="partner-logo">
+            <img src="img/partners/znalecke-sluzby.svg" alt="Znalecké služby Ing. Tomáš Šenrát" class="partner-logo">
+            <img src="img/partners/zpravodaj-benesov.svg" alt="Zpravodaj města Benešov" class="partner-logo">
+            <img src="img/partners/jiskra.svg" alt="Jiskra Benešovský deník" class="partner-logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- COOKIE BANNER -->
+  <div class="cookie-banner" id="cookieBanner">
+    <p>Tento web používá cookies pro zajištění správné funkčnosti. Pokračováním v prohlížení souhlasíte s jejich používáním. <a href="info.html#cookies">Více informací</a>.</p>
+    <button class="btn" id="cookieAccept">Rozumím</button>
+  </div>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(l => l.addEventListener('click', () => navLinks.classList.remove('open')));
+    window.addEventListener('scroll', () => document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 10));
+    if (!localStorage.getItem('cookiesAccepted')) setTimeout(() => document.getElementById('cookieBanner').classList.add('show'), 1000);
+    document.getElementById('cookieAccept').addEventListener('click', () => { localStorage.setItem('cookiesAccepted', 'true'); document.getElementById('cookieBanner').classList.remove('show'); });
+  </script>
+</body>
+</html>

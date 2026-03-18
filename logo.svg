@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <!-- Plum jam gradient -->
+    <radialGradient id="jam" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#A02058"/>
+      <stop offset="100%" stop-color="#8B1A4A"/>
+    </radialGradient>
+    <!-- Pastry gradient -->
+    <radialGradient id="pastry" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#F0D08C"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </radialGradient>
+    <!-- Mountain gradient -->
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B2D8B"/>
+      <stop offset="100%" stop-color="#7B3D9B"/>
+    </linearGradient>
+    <linearGradient id="mountainBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9B59B6"/>
+      <stop offset="100%" stop-color="#8B49A6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background mountain (rear, lighter) -->
+  <path d="M10 78 L42 38 L55 52 L72 30 L110 78 Z" fill="url(#mountainBack)" opacity="0.7"/>
+
+  <!-- Foreground mountain (darker) -->
+  <path d="M2 78 L35 42 L48 55 L60 36 L72 50 L98 78 Z" fill="url(#mountain)"/>
+
+  <!-- Snow caps hint -->
+  <path d="M35 42 L40 48 L30 48 Z" fill="white" opacity="0.5"/>
+  <path d="M60 36 L65 42 L55 42 Z" fill="white" opacity="0.5"/>
+
+  <!-- Ground/horizon line -->
+  <ellipse cx="60" cy="80" rx="56" ry="6" fill="#5A2D7A" opacity="0.3"/>
+
+  <!-- Kolac - outer pastry ring -->
+  <circle cx="60" cy="72" r="28" fill="url(#pastry)"/>
+
+  <!-- Pastry edge detail - darker ring for depth -->
+  <circle cx="60" cy="72" r="28" fill="none" stroke="#C09030" stroke-width="2.5" opacity="0.6"/>
+
+  <!-- Crimped/pleated edge marks around the kolac -->
+  <circle cx="60" cy="72" r="25" fill="none" stroke="#C89840" stroke-width="1" stroke-dasharray="4 3" opacity="0.7"/>
+
+  <!-- Plum jam filling center -->
+  <circle cx="60" cy="71" r="17" fill="url(#jam)"/>
+
+  <!-- Jam shine/highlight -->
+  <ellipse cx="55" cy="67" rx="6" ry="4" fill="white" opacity="0.15"/>
+
+  <!-- Small plum jam dollop detail -->
+  <circle cx="63" cy="69" r="2.5" fill="#A02058" opacity="0.4"/>
+
+  <!-- Winding trail/path going from bottom up toward the kolac -->
+  <path d="M20 115 Q30 100 38 92 Q48 82 50 78"
+        fill="none" stroke="#F0D08C" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M20 115 Q30 100 38 92 Q48 82 50 78"
+        fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4" opacity="0.5"/>
+
+  <!-- Second trail branch -->
+  <path d="M100 115 Q90 100 82 92 Q72 82 70 78"
+        fill="none" stroke="#F0D08C" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M100 115 Q90 100 82 92 Q72 82 70 78"
+        fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4" opacity="0.5"/>
+
+  <!-- Small boot prints on the left trail -->
+  <g fill="#6B2D8B" opacity="0.6">
+    <!-- Boot print 1 -->
+    <ellipse cx="28" cy="102" rx="2" ry="3" transform="rotate(-25 28 102)"/>
+    <ellipse cx="27" cy="106" rx="1.5" ry="1" transform="rotate(-25 27 106)"/>
+    <!-- Boot print 2 -->
+    <ellipse cx="40" cy="90" rx="2" ry="3" transform="rotate(-15 40 90)"/>
+    <ellipse cx="39.5" cy="94" rx="1.5" ry="1" transform="rotate(-15 39.5 94)"/>
+  </g>
+</svg>

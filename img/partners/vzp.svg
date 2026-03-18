@@ -1,0 +1,851 @@
+
+<!doctype html>
+
+<html ontouchmove lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<script>
+    // Define dataLayer and the gtag function.
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    // Default consent to 'denied'.
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+    });
+    console.log('GCM default: denied');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KN7XW7H');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="//assets.vzpstatic.cz/202603181532/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="//assets.vzpstatic.cz/202603181532/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <link rel="manifest" href="//assets.vzpstatic.cz/202603181532/favicons/manifest.json">
+    <link rel="canonical" href="https://www.vzp.cz" />
+    <link rel="apple-touch-icon" sizes="57x57" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="//assets.vzpstatic.cz/202603181532/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="//assets.vzpstatic.cz/202603181532/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//assets.vzpstatic.cz/202603181532/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="//assets.vzpstatic.cz/202603181532/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="//assets.vzpstatic.cz/202603181532/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="//assets.vzpstatic.cz/202603181532/favicons/favicon.ico">
+    <link rel="stylesheet" href="//assets.vzpstatic.cz/202603181532/styles/font-awesome.css">
+    <link rel="stylesheet" href="//assets.vzpstatic.cz/202603181532/styles/front.css">
+    <link rel="stylesheet" href="//assets.vzpstatic.cz/202603181532/styles/vendors.css">
+    
+<link rel="alternate" type="application/rss+xml" title="VZP ČR" href="/rss" />
+
+    <title>Str&#225;nka nebyla nalezena - VZP ČR</title>
+    <script defer type="text/javascript" src="//assets.vzpstatic.cz/202603181532/scripts/libs.js"></script>
+    <script defer type="text/javascript" src="//assets.vzpstatic.cz/202603181532/scripts/app.js"></script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KN7XW7H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div class="Page">
+	<header class="Page-header" role="banner">
+
+<div class="Header">
+    <div class="Header-grid">
+        <div class="Header-grid-column Header-grid-column--logo">
+
+
+<h1 class="LogoContainer" itemscope itemtype="//schema.org/Organization">
+    <a class="Logo" href="https://www.vzp.cz/" title="Všeobecn&#225; zdravotn&#237; pojišťovna ČR, hlavn&#237; str&#225;nka" aria-label="Všeobecn&#225; zdravotn&#237; pojišťovna ČR, hlavn&#237; str&#225;nka" itemprop="url">
+        <span class="sr-only" itemprop="name">Všeobecn&#225; zdravotn&#237; pojišťovna ČR, hlavn&#237; str&#225;nka</span>
+        <picture class="Logo">
+            <source srcset="//assets.vzpstatic.cz/202603181532/images/vzp-logo.png" media="(min-width: 1024px)">
+            <img src="//assets.vzpstatic.cz/202603181532/images/vzp-logo-mobile.png" alt="Všeobecn&#225; zdravotn&#237; pojišťovna ČR, hlavn&#237; str&#225;nka" fetchpriority="high">
+        </picture>
+    </a>
+</h1>
+
+
+        </div>
+
+        <div class="Header-grid-column Header-grid-column--contact">
+            <a class="Header-contact Header-contact--phone" href="/kontakty">Kontaktujte nás</a>
+        </div>
+
+        <div class="Header-grid-column Header-grid-column--ico">
+            <a aria-label="Infolinka s textovým přepisem hovoru pro neslyšící"
+               class="Header-contact Header-contact--deaf"
+               href="/kontakty/on-line-prepis-klientske-linky"
+               title="Infolinka s textovým přepisem hovoru pro neslyšící"></a>
+        </div>
+
+
+            <div class="Header-grid-column Header-grid-column--menuLanguage js-language-picker" data-english="https://en.vzp.cz">
+            </div>
+
+        <div class="Header-grid-column Header-grid-column--search">
+            <div class="Form" id="main-page-search-input"></div>
+        </div>
+
+        <div class="Header-grid-column Header-grid-column--searchMobile">
+            <a class="Header-searchLink" href="/vyhledavani" title="Vyhledávání" aria-label="Vyhledávání">
+                <span class="fa fa-search" aria-hidden="true"></span>
+            </a>
+        </div>
+
+            <div class="Header-grid-column Header-grid-column--menuMobileLanguage js-language-picker" data-english="https://en.vzp.cz">
+            </div>
+
+        <div class="Header-grid-column Header-grid-column--menuMobile">
+            <button class="MenuMobileHandler" aria-controls="mobileMenu" aria-expanded="false" type="button">Menu</button>
+        </div>
+    </div>
+</div>
+
+
+<nav class="MainMenu" aria-labelledby="main-menu-desktop">
+    <h2 id="main-menu-desktop" class="sr-only">Hlavní menu</h2>
+    <ul class="MainMenu-list">
+                <li class="MainMenu-item MainMenu-item--insurees ">
+            <a class="MainMenu-link" aria-label="Pojištěnci - Klienti VZP" href="/pojistenci">
+                <span class="MainMenu-link-header" aria-hidden="true">
+                    Pojištěnci
+                </span>
+                <span class="MainMenu-link-subheader" aria-hidden="true">
+                    Klienti VZP
+                </span>
+            </a>
+        </li>
+
+        <li class="MainMenu-item MainMenu-item--contributors ">
+            <a class="MainMenu-link" aria-label="Pl&#225;tci - Kategorie pl&#225;tců pojistn&#233;ho" href="/platci">
+                <span class="MainMenu-link-header" aria-hidden="true">
+                    Pl&#225;tci
+                </span>
+                <span class="MainMenu-link-subheader" aria-hidden="true">
+                    Kategorie pl&#225;tců pojistn&#233;ho
+                </span>
+            </a>
+        </li>
+
+        <li class="MainMenu-item MainMenu-item--providers ">
+            <a class="MainMenu-link" aria-label="Poskytovatel&#233; - L&#233;kaři, zdravotnick&#225; zař&#237;zen&#237;" href="/poskytovatele">
+                <span class="MainMenu-link-header" aria-hidden="true">
+                    Poskytovatel&#233;
+                </span>
+                <span class="MainMenu-link-subheader" aria-hidden="true">
+                    L&#233;kaři, zdravotnick&#225; zař&#237;zen&#237;
+                </span>
+            </a>
+        </li>
+
+        <li class="MainMenu-item MainMenu-item--evzp ">
+            <a class="MainMenu-link" aria-label="e-VZP - Elektronick&#225; komunikace" href="/e-vzp">
+                <span class="MainMenu-link-header" aria-hidden="true">
+                    e-VZP
+                </span>
+                <span class="MainMenu-link-subheader" aria-hidden="true">
+                    Elektronick&#225; komunikace
+                </span>
+            </a>
+        </li>
+
+
+
+
+<li class="MainMenu-item MainMenu-item--login">
+    
+        <a class="MainMenu-link MainMenu-link--small" href="https://moje.vzp.cz/">
+            Vstup do Moje VZP
+                <span class="MainMenu-link-ico fa fa-lock" aria-hidden="true"></span>
+        </a>
+
+
+        <a class="MainMenu-link MainMenu-link--small" href="https://point.vzp.cz/">
+            Vstup do VZP Pointu
+                <span class="MainMenu-link-ico fa fa-lock" aria-hidden="true"></span>
+        </a>
+
+
+</li>
+
+
+
+    </ul>
+</nav>
+
+
+
+
+<div class="accordion-container MenuMobileContainer hidden" id="accordion-mobile">
+    <div class="ac">
+        <button class="MenuMobile--trigger ac-trigger hidden"></button>
+        <div class="ac-panel">
+            <nav aria-labelledby="mobile-main-menu-header">
+                <h2 id="mobile-main-menu-header" class="ac-sr-only sr-only">Hlavní menu</h2>
+                <ul role="menu" id="mobileMenu" class="MenuMobile accordion-container">
+                                                <li class="MenuMobile-item ac ">
+                                <section aria-labelledby="id1866638396" class="MenuMobile-section">
+                                    <div class="MenuMobile-item-wrapper">
+                                        <a class="MenuMobile-item-link" href="/pojistenci">
+                                            <h3 id="id1866638396" class="MenuMobile-section-title">Pojištěnci</h3>
+                                        </a>
+                                        <button class="MenuMobile-item-more ac-trigger" type="button" aria-controls="subid1866638396">
+                                            <div class="sr-only">Zobrazit menu Pojištěnci</div>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel" inert>
+                                        <ul
+                                            class="MenuMobile-submenu accordion-container"
+                                            id="subid1866638396"
+                                            aria-hidden="true"
+                                        >
+                                                                        <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/aktuality">Aktuality</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/nejcasteji-resite">Nejčastěji řeš&#237;te</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/vyhody-a-prispevky">V&#253;hody a př&#237;spěvky</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/prevence">Prevence</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/informace-a-zivotni-situace">Informace a životn&#237; situace</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/formulare">Formul&#225;ře</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/cestovani-a-pobyt-v-zahranici">Cestov&#225;n&#237; a pobyt v zahranič&#237;</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="http://www.pvzp.cz/">Komerčn&#237; pojištěn&#237; u PVZP</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/pojistenci/zdravotnicka-zarizeni-a-specializovana-centra">Zdravotnick&#225; zař&#237;zen&#237; a specializovan&#225; centra</a>
+                                </div>
+                            </li>
+
+                                        </ul>
+                                    </div>
+                                </section>
+                            </li>
+                            <li class="MenuMobile-item ac ">
+                                <section aria-labelledby="id1981729748" class="MenuMobile-section">
+                                    <div class="MenuMobile-item-wrapper">
+                                        <a class="MenuMobile-item-link" href="/platci">
+                                            <h3 id="id1981729748" class="MenuMobile-section-title">Pl&#225;tci</h3>
+                                        </a>
+                                        <button class="MenuMobile-item-more ac-trigger" type="button" aria-controls="subid1981729748">
+                                            <div class="sr-only">Zobrazit menu Pl&#225;tci</div>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel" inert>
+                                        <ul
+                                            class="MenuMobile-submenu accordion-container"
+                                            id="subid1981729748"
+                                            aria-hidden="true"
+                                        >
+                                                                        <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/platci/aktuality">Aktuality</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/platci/nejcasteji-resite">Nejčastěji řeš&#237;te</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/platci/informace">Informace</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/platci/cisla-uctu">Č&#237;sla &#250;čtů</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/platci/formulare">Formul&#225;ře</a>
+                                </div>
+                            </li>
+
+                                        </ul>
+                                    </div>
+                                </section>
+                            </li>
+                            <li class="MenuMobile-item ac ">
+                                <section aria-labelledby="id996679243" class="MenuMobile-section">
+                                    <div class="MenuMobile-item-wrapper">
+                                        <a class="MenuMobile-item-link" href="/poskytovatele">
+                                            <h3 id="id996679243" class="MenuMobile-section-title">Poskytovatel&#233;</h3>
+                                        </a>
+                                        <button class="MenuMobile-item-more ac-trigger" type="button" aria-controls="subid996679243">
+                                            <div class="sr-only">Zobrazit menu Poskytovatel&#233;</div>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel" inert>
+                                        <ul
+                                            class="MenuMobile-submenu accordion-container"
+                                            id="subid996679243"
+                                            aria-hidden="true"
+                                        >
+                                                                        <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/aktuality">Aktuality</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/nejcasteji-resite">Nejčastěji řeš&#237;te</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/informace-pro-praxi">Informace pro praxi</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/ciselniky">Č&#237;seln&#237;ky</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/smluvni-vztahy">Smluvn&#237; vztahy</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/bonifikace">Bonifikace</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/vyuctovani-zdravotni-pece">Vy&#250;čtov&#225;n&#237; zdravotn&#237; p&#233;če</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/tiskopisy">Tiskopisy</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/vyberova-rizeni">V&#253;běrov&#225; ř&#237;zen&#237;</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/dohodovaci-rizeni">Dohodovac&#237; ř&#237;zen&#237;</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/poskytovatele/dostupnost-zdravotni-pece">Dostupnost zdravotn&#237; p&#233;če</a>
+                                </div>
+                            </li>
+
+                                        </ul>
+                                    </div>
+                                </section>
+                            </li>
+                            <li class="MenuMobile-item ac ">
+                                <section aria-labelledby="id-726639960" class="MenuMobile-section">
+                                    <div class="MenuMobile-item-wrapper">
+                                        <a class="MenuMobile-item-link" href="/kontakty">
+                                            <h3 id="id-726639960" class="MenuMobile-section-title">Kontakty</h3>
+                                        </a>
+                                        <button class="MenuMobile-item-more ac-trigger" type="button" aria-controls="subid-726639960">
+                                            <div class="sr-only">Zobrazit menu Kontakty</div>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel" inert>
+                                        <ul
+                                            class="MenuMobile-submenu accordion-container"
+                                            id="subid-726639960"
+                                            aria-hidden="true"
+                                        >
+                                                                        <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/kontakty/pobocky">Pobočky</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/kontakty/informacni-centrum">Informačn&#237; centrum</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/kontakty/on-line-prepis-klientske-linky">Linka pro neslyš&#237;c&#237; </a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/kontakty/cisla-uctu">Č&#237;sla &#250;čtů</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/kontakty/dalsi-informace">Dalš&#237; informace</a>
+                                </div>
+                            </li>
+
+                                        </ul>
+                                    </div>
+                                </section>
+                            </li>
+                            <li class="MenuMobile-item ac ">
+                                <section aria-labelledby="id1930329921" class="MenuMobile-section">
+                                    <div class="MenuMobile-item-wrapper">
+                                        <a class="MenuMobile-item-link" href="/e-vzp">
+                                            <h3 id="id1930329921" class="MenuMobile-section-title">e-VZP</h3>
+                                        </a>
+                                        <button class="MenuMobile-item-more ac-trigger" type="button" aria-controls="subid1930329921">
+                                            <div class="sr-only">Zobrazit menu e-VZP</div>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel" inert>
+                                        <ul
+                                            class="MenuMobile-submenu accordion-container"
+                                            id="subid1930329921"
+                                            aria-hidden="true"
+                                        >
+                                                                        <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/aktuality">Aktuality</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/nejcasteji-resite">Nejčastěji řeš&#237;te</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/moje-vzp">Moje VZP</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/vzp-point">VZP Point</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/b2b-komunikace">B2B komunikace</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/informace-pro-sw-firmy">Informace pro SW firmy</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/epodatelna">e-Podatelna</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/e-vzp/ep2-workspace">EP2 Workspace</a>
+                                </div>
+                            </li>
+
+                                        </ul>
+                                    </div>
+                                </section>
+                            </li>
+                            <li class="MenuMobile-item ac ">
+                                <section aria-labelledby="id-191859102" class="MenuMobile-section">
+                                    <div class="MenuMobile-item-wrapper">
+                                        <a class="MenuMobile-item-link" href="/o-nas">
+                                            <h3 id="id-191859102" class="MenuMobile-section-title">O n&#225;s</h3>
+                                        </a>
+                                        <button class="MenuMobile-item-more ac-trigger" type="button" aria-controls="subid-191859102">
+                                            <div class="sr-only">Zobrazit menu O n&#225;s</div>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel" inert>
+                                        <ul
+                                            class="MenuMobile-submenu accordion-container"
+                                            id="subid-191859102"
+                                            aria-hidden="true"
+                                        >
+                                                                        <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/aktuality">Aktuality</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/nejcasteji-resite">Nejčastěji řeš&#237;te</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/kdo-jsme">Kdo jsme?</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/dokumenty">Dokumenty</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/tiskove-centrum">Tiskov&#233; centrum</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/informace">Informace</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/verejne-zakazky">Veřejn&#233; zak&#225;zky</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/prebytecny-majetek">Přebytečn&#253; majetek</a>
+                                </div>
+                            </li>
+                            <li class="MenuMobile-item">
+                                <div class="MenuMobile-item-wrapper MenuMobile-item-wrapper-single">
+                                    <a class="MenuMobile-item-link" href="/o-nas/pronajem">Pron&#225;jem prostor</a>
+                                </div>
+                            </li>
+
+                                        </ul>
+                                    </div>
+                                </section>
+                            </li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+
+
+	</header>
+
+	<div class="Page-content">
+		<div class="Content">
+			
+<div class="Layout">
+    <main class="Layout-main" role="main">
+            <section class="Layout-main-content">
+                
+
+<div class="ErrorContent">
+    <div class="ErrorContent-header">
+        <div class="ErrorContent-image ErrorContent-image--desktop">
+            <svg class="ErrorContent-image-visual" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 739 294">
+                <title>Ilustrace chyby</title>
+                <circle cx="369" cy="234.8" r="6.4" style="fill:none"></circle>
+                <circle cx="369" cy="234.8" r="4.9" style="fill:none;stroke:#2b79a8;stroke-width:3px"></circle>
+                <rect x="344.4" y="252.1" width="49.1" height="40.04" style="fill:none"></rect>
+                <rect x="345.9" y="253.6" width="46.1" height="37.04" style="fill:none;stroke:#2b79a8;stroke-width:3px"></rect>
+                <path d="M456.5,217H329.3L455.5,5.7V4H561V217Z" style="fill:#e3eff2"></path>
+                <path d="M678.7,221.3v67.2h-40Z" style="fill:#e3eff2"></path>
+                <path d="M623,220.5h55a2.5,2.5,0,0,1,2.5,2.5v65.1a2.5,2.5,0,0,1-2.5,2.5H623a2.5,2.5,0,0,1-2.5-2.5V223A2.5,2.5,0,0,1,623,220.5Z" style="fill:none;stroke:#2b79a8;stroke-width:5px"></path>
+                <path d="M679.5,235h3.3a20,20,0,0,1,20,20h0v.2a20,20,0,0,1-20,20h-3.3Z" style="fill:none"></path>
+                <path d="M682.5,236.5h.3A18.5,18.5,0,0,1,701.3,255h0v.2a18.5,18.5,0,0,1-18.5,18.5h-.3a1.5,1.5,0,0,1-1.5-1.5V238A1.5,1.5,0,0,1,682.5,236.5Z" style="fill:none;stroke:#2b79a8;stroke-width:3px"></path>
+                <path d="M679.5,243.5h3.9a11.8,11.8,0,0,1,11.8,11.8h0a11.8,11.8,0,0,1-11.8,11.8h-3.9Z" style="fill:none"></path>
+                <path d="M681.8,245h1.5a10.3,10.3,0,0,1,10.3,10.3h0a10.3,10.3,0,0,1-10.3,10.3h-1.5a.8.8,0,0,1-.8-.8v-19a.8.8,0,0,1,.8-.8Z" style="fill:none;stroke:#2b79a8;stroke-width:3px"></path>
+                <path d="M640,174.5c12.7,14.3,0,21.5,0,35" style="fill:none;stroke:#2b79a8;stroke-width:3px"></path>
+                <path d="M651.3,174.5c12.7,14.3,0,21.5,0,35" style="fill:none;stroke:#2b79a8;stroke-width:3px"></path>
+                <path d="M662.6,174.5c12.7,14.3,0,21.5,0,35" style="fill:none;stroke:#2b79a8;stroke-width:3px"></path>
+                <rect x="169" width="394.9" height="254.78" rx="10" ry="10" style="fill:none"></rect>
+                <rect x="171.5" y="2.5" width="389.9" height="249.78" rx="7.5" ry="7.5" style="fill:none;stroke:#2b79a8;stroke-width:5px"></rect>
+                <path d="M192.5,116.4h32.4l21.1-70,30.5,133L307.5,71.6l22.7,89.3,14.6-44.5H540" style="fill:none;stroke:#89c7e0;stroke-linecap:round;stroke-width:5px"></path>
+                <line x1="171.1" y1="217.9" x2="561.4" y2="217.9" style="fill:none;stroke:#2b79a8;stroke-width:3px"></line>
+                <path d="M2.5,289h734a2.5,2.5,0,0,1,2.5,2.5h0a2.5,2.5,0,0,1-2.5,2.5H2.5A2.5,2.5,0,0,1,0,291.5H0A2.5,2.5,0,0,1,2.5,289Z" style="fill:#2b79a8"></path>
+            </svg>
+        </div>
+
+        <div class="ErrorContent-image ErrorContent-image--mobile">
+            <svg class="ErrorContent-image-visual" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 357">
+                <title>Ilustrace chyby</title>
+                <ellipse cx="99.7" cy="330.9" rx="13.8" ry="14.2" style="fill:none"></ellipse>
+                <ellipse cx="99.7" cy="330.9" rx="12.3" ry="12.7" style="fill:none;stroke:#2b79a8;stroke-width:3px"></ellipse>
+                <path d="M196.6,30.4V306.8H3.4Z" style="fill:#e3eff2"></path>
+                <rect width="200" height="357.05" rx="30" ry="30" style="fill:none"></rect>
+                <rect x="2.5" y="2.5" width="195" height="352.05" rx="27.5" ry="27.5" style="fill:none;stroke:#2b79a8;stroke-width:5px"></rect>
+                <path d="M14.8,170.4H29.4l13.4-44.5,19.6,83,19.5-67.1,14.4,54.6,9.3-26.1H186" style="fill:none;stroke:#89C7E0;stroke-linecap:round;stroke-width:5px"></path>
+                <line x1="1" y1="306.9" x2="198.7" y2="306.9" style="fill:none;stroke:#2b79a8;stroke-width:3px"></line>
+                <line x1="1" y1="30.5" x2="198.7" y2="30.5" style="fill:none;stroke:#2b79a8;stroke-width:3px"></line>
+                <line x1="115" y1="17.4" x2="84.6" y2="17.4" style="fill:none;stroke:#2b79a8;stroke-linecap:round;stroke-width:3px"></line>
+            </svg>
+        </div>
+
+        <h1 class="ErrorContent-title">
+            Stránka nebyla nalezena
+        </h1>
+
+        <p class="ErrorContent-code">
+            Kód chyby: <strong>404</strong>
+        </p>
+    </div>
+
+    <p class="Paragraph">
+        Omlouváme se, požadovaná stránka nebyla nalezena. Zkontrolujte, prosím, zda je <strong>adresa požadované stránky zadaná správně</strong>. Pokud je adresa správně, mohla být stránka odstraněna, změnil se její název nebo není dočasně k dispozici.
+    </p>
+</div>
+	<div class="EditorContent">
+		<p><span id="iab-pcm-sdk"></span> <span id="iab-autofill-sdk"></span></p>
+	</div>
+
+
+
+            </section>
+    </main>
+</div>
+
+		</div>
+	</div>
+
+	<footer class="Page-footer" role="contentinfo">
+		<div class="Page-footer-info">
+
+
+
+<nav class="Footer" aria-labelledby="footer-nav-label">
+    <h2 id="footer-nav-label" class="sr-only">
+        Navigace v patičce
+    </h2>
+
+    <div class="Footer-inner">
+            <div class="Footer-inner-column">
+                <h3 class="Footer-inner-column-title">
+                    Užitečné odkazy
+                </h3>
+
+                
+<ul class="FooterLinks">
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/o-nas">
+				O n&#225;s
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/o-nas/tiskove-centrum">
+				Tiskov&#233; centrum
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="https://www.zdravakariera.cz">
+				Zdrav&#225; kari&#233;ra
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="https://www.klubpevnehozdravi.cz/">
+				Klub pevn&#233;ho zdrav&#237;
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="https://dusevnizdravi.vzp.cz">
+				Duševn&#237; zdrav&#237;
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="https://www.vzpoura-urazum.cz/">
+				VZPoura &#250;razům
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/ehic">
+				Ověřen&#237; platnosti průkazu pojištěnce
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/o-nas/verejne-zakazky">
+				Veřejn&#233; zak&#225;zky
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/poskytovatele/smluvni-vztahy">
+				Smlouvy s poskytovateli
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="http://edeska.vzp.cz/eDeska/eDeskaAktualni.jsp">
+				&#218;ředn&#237; deska
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/o-nas/informace/zpracovavani-osobnich-udaju-ve-vzp">
+				Zpracov&#225;v&#225;n&#237; osobn&#237;ch &#250;dajů
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/e-vzp/prohlaseni-o-pristupnosti">
+				Prohl&#225;šen&#237; o př&#237;stupnosti
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="https://app.tichalinka.cz/login?organization=64bb07e2-662c-4606-aceb-e97ab12b5179">
+				Linka pro neslyš&#237;c&#237;
+			</a>
+		</li>
+		<li class="FooterLinks-item">
+			<a class="Link Link--white" href="/o-nas/informace/cookies">
+				Zpracov&#225;n&#237; cookies
+			</a>
+		</li>
+</ul>
+
+
+
+
+            </div>
+        <div class="Footer-inner-column">
+            <h3 class="Footer-inner-column-title">
+                Kontaktujte nás
+            </h3>
+
+            <div class="Grid">
+                <div class="Grid-row">
+                    <div class="Grid-column u-col-1-2">
+                        <p class="Paragraph">
+                            IČO: 41197518
+                            <br>
+                            Kód pojišťovny: 111
+                            <br>
+                            Telefon: <a class="Link Link--white" href="tel:+420952222222" rel="nofollow">952 222 222</a>
+                            <br>
+                            E-mail: <a class="Link Link--white" href="mailto:info@vzp.cz">info@vzp.cz</a>
+                            <br>
+                            Datová schránka: i48ae3q
+                        </p>
+                    </div>
+
+                    <div class="Grid-column u-col-1-2">
+                        <a class="Button Button--white" href="/kontakty">
+                            Jsme tu pro vás
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+<ul class="Social Social--inverted" itemscope itemtype="//schema.org/Organization">
+    <li class="Social-item">
+        <a class="Social-ico Social-ico--fb" href="http://www.facebook.com/vzpcr" itemprop="sameAs">
+            <span class="sr-only">Facebook</span>
+        </a>
+    </li>
+
+    <li class="Social-item">
+        <a class="Social-ico Social-ico--in" href="https://www.linkedin.com/company/vzp" itemprop="sameAs">
+            <span class="sr-only">LinkedIn</span>
+        </a>
+    </li>
+
+    <li class="Social-item">
+        <a class="Social-ico Social-ico--yt" href="https://www.youtube.com/channel/UC_sJRd_zRw-mcpdo_VpL99g" itemprop="sameAs">
+            <span class="sr-only">YouTube</span>
+        </a>
+    </li>
+
+    <li class="Social-item">
+        <a class="Social-ico Social-ico--ig" href="https://www.instagram.com/vzpcr" itemprop="sameAs">
+            <span class="sr-only">Instagram</span>
+        </a>
+    </li>
+
+    <li class="Social-item">
+        <a class="Social-ico Social-ico--tw" href="https://twitter.com/VZPtweetuje" itemprop="sameAs">
+            <span class="sr-only">Twitter</span>
+        </a>
+    </li>
+</ul>
+
+        </div>
+    </div>
+</nav>
+
+		</div>
+	
+		<div class="Page-footer-copyright">
+<div class="Copyright">
+	© 2026 VZP ČR, Všechna práva vyhrazena
+</div>
+
+			
+
+
+
+		</div>
+	</footer>
+</div>
+
+
+    <script type="text/javascript">
+        window.appConfig = {
+            webpackPublicPath: '//assets.vzpstatic.cz/202603181532/scripts/',
+            staticPath: '//assets.vzpstatic.cz/202603181532/',
+            reservation: {
+                url: 'https://vsrezsy.vzp.cz/wc/master/restApi'
+            },
+            baseAppUrl: 'https://www.vzp.cz',
+            mapsApiKey: 'tCUAp-rvBiwfu9fn1wIsszAqXBEBzMZp-lIEOjYd7uo',
+            mapsApiUrl: 'https://api.mapy.cz',
+            title: 'VZP ČR',
+            serverDate: '2026-03-18T22:22:54' 
+        };
+    </script>
+</body>
+</html>

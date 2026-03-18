@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>404 ČD</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="format-detection" content="telephone=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&amp;subset=latin-ext" rel="stylesheet" type="text/css">
+  <style type="text/css">
+   *{margin:0; padding:0; }
+   html{font-size:16px; }
+   body{font-weight:normal; font-family:'Roboto',Arial,Verdana,Tahoma; background:#333F4D; font-size:100%; font-weight:normal; line-height:1.42857; width:100%;  }
+   #page{background:#ffffff none repeat scroll 0 0;   color:#778899;  }
+   #layout{margin:0 auto;    padding:1em;    text-align:left; width:62.5em;  }
+   #logo{width:100%; padding-top:1em; height:3.5625em; }
+   #logo a{display:inline-block; width:199px; height:42px; background:url('/error-cd/images/ceske-drahy.png') left top no-repeat; }
+   #logo span{display:none; }
+   h1{color:#ff600c; font-size:200%; padding:0 0 1.1em; font-weight:400;  }
+   p,ul{font-size:95%; }
+   p:last-child { margin-bottom: 1em; }
+   ul{padding:1em 0 1em 2em; }
+   a{color:#009fda; text-decoration:underline; }
+   a:hover{text-decoration:none; }
+   .ilu{float:right; text-align:right; width:300px; height:300px; padding-top: 2em; }
+   .ilu img{width:250px; height:250px; }
+   #main{border-top: 1em solid #009FDA; margin-top: 1em; padding-top:2em; }
+   .str{font-size:120%; margin-bottom:1.5em; font-weight: 700; }     
+   footer{color:#778899; padding:1em; }
+   footer p{width:1000px; margin:0 auto; }
+  </style>
+</head>
+<body>
+  <div id="page">
+    <div id="layout">
+      <p id="logo"><a href="https://www.cd.cz/" title=""><span>České dráhy</span></a></p> 
+      <div id="main">
+        <div class="contentcol left largecol box980 errorpage">
+          <p class="ilu">
+            <img src="/error-cd/images/link-error-1.png" alt="" />
+          </p>
+          <h1 class="errortitle">Chyba 404</h1>
+          
+          <p class="str">
+            Je nám líto, ale požadovaná stránka nebyla nalezena. Pokud se domníváte, že jde o chybu na naší straně, dejte nám o tom <a href="mailto:info@cd.cz">vědět</a>.
+          </p>                
+          <p>
+            <strong>Užitečné odkazy:</strong>
+          </p>
+          <ul>
+            <li><a href="https://www.cd.cz/hledat/">Hledání na webu</a></li>        
+            <li><a href="https://www.cd.cz/spojeni-a-jizdenka/">Najít spojení</a></li>  
+            <li><a href="https://www.cd.cz/eshop/">E-shop</a></li>        
+            <li><a href="https://www.cd.cz/vlak/">Vše o vlaku</a></li>
+            <li><a href="https://www.cd.cz/stanice/">Vše o stanici</a></li>
+            <li><a href="https://www.cd.cz/objednavka-cesty-skupiny/">Objednávka cesty skupin</a></li>        
+            <li><a href="https://www.cd.cz/objednavka-cesty-vozickaru/">Objednávka cesty vozíčkářů</a></li>        
+            <li><a href="https://www.cd.cz/eshop/vraceni-a-vymena/">Vrácení a reklamace jízdních dokladů</a></li>
+          </ul>
+        </div>
+      </div>    
+      <div class="reset"></div> 
+    </div>
+  </div>
+  <footer> 
+    <p>
+    &copy; České dráhy, a.s. 2016    
+    </p>             
+  </footer>
+</body>
+</html>
